@@ -1,0 +1,660 @@
+('C:\\Users\\Carlos Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\PYZ-00.pyz',
+ [('__future__',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\__future__.py',
+   'PYMODULE'),
+  ('_aix_support',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_aix_support.py',
+   'PYMODULE'),
+  ('_ast_unparse',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_ast_unparse.py',
+   'PYMODULE'),
+  ('_colorize',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_colorize.py',
+   'PYMODULE'),
+  ('_compat_pickle',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_compat_pickle.py',
+   'PYMODULE'),
+  ('_opcode_metadata',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_opcode_metadata.py',
+   'PYMODULE'),
+  ('_py_abc',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_py_abc.py',
+   'PYMODULE'),
+  ('_py_warnings',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_py_warnings.py',
+   'PYMODULE'),
+  ('_pydatetime',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_pydatetime.py',
+   'PYMODULE'),
+  ('_pydecimal',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_pydecimal.py',
+   'PYMODULE'),
+  ('_strptime',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_strptime.py',
+   'PYMODULE'),
+  ('_threading_local',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\_threading_local.py',
+   'PYMODULE'),
+  ('annotationlib',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\annotationlib.py',
+   'PYMODULE'),
+  ('argparse',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\argparse.py',
+   'PYMODULE'),
+  ('ast',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ast.py',
+   'PYMODULE'),
+  ('base64',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\base64.py',
+   'PYMODULE'),
+  ('bisect',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\bisect.py',
+   'PYMODULE'),
+  ('bz2',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\bz2.py',
+   'PYMODULE'),
+  ('calendar',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\calendar.py',
+   'PYMODULE'),
+  ('codeop',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\codeop.py',
+   'PYMODULE'),
+  ('compression',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\compression\\__init__.py',
+   'PYMODULE'),
+  ('compression._common',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\compression\\_common\\__init__.py',
+   'PYMODULE'),
+  ('compression._common._streams',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\compression\\_common\\_streams.py',
+   'PYMODULE'),
+  ('compression.zstd',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\compression\\zstd\\__init__.py',
+   'PYMODULE'),
+  ('compression.zstd._zstdfile',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\compression\\zstd\\_zstdfile.py',
+   'PYMODULE'),
+  ('contextlib',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\contextlib.py',
+   'PYMODULE'),
+  ('contextvars',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\contextvars.py',
+   'PYMODULE'),
+  ('copy',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\copy.py',
+   'PYMODULE'),
+  ('csv',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\csv.py',
+   'PYMODULE'),
+  ('ctypes',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ctypes\\__init__.py',
+   'PYMODULE'),
+  ('ctypes._endian',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ctypes\\_endian.py',
+   'PYMODULE'),
+  ('ctypes._layout',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ctypes\\_layout.py',
+   'PYMODULE'),
+  ('dataclasses',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\dataclasses.py',
+   'PYMODULE'),
+  ('datetime',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\datetime.py',
+   'PYMODULE'),
+  ('decimal',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\decimal.py',
+   'PYMODULE'),
+  ('difflib',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\difflib.py',
+   'PYMODULE'),
+  ('dis',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\dis.py',
+   'PYMODULE'),
+  ('docprinter',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\__init__.py',
+   'PYMODULE'),
+  ('docprinter.__main__',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\__main__.py',
+   'PYMODULE'),
+  ('docprinter.admin_setup',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\admin_setup.py',
+   'PYMODULE'),
+  ('docprinter.backend_base',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\backend_base.py',
+   'PYMODULE'),
+  ('docprinter.backend_fake',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\backend_fake.py',
+   'PYMODULE'),
+  ('docprinter.backend_windows',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\backend_windows.py',
+   'PYMODULE'),
+  ('docprinter.backends',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\backends.py',
+   'PYMODULE'),
+  ('docprinter.cli',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\cli.py',
+   'PYMODULE'),
+  ('docprinter.gui',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\gui.py',
+   'PYMODULE'),
+  ('docprinter.helper',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\helper.py',
+   'PYMODULE'),
+  ('docprinter.ipc',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\ipc.py',
+   'PYMODULE'),
+  ('docprinter.models',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\models.py',
+   'PYMODULE'),
+  ('docprinter.naming',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\naming.py',
+   'PYMODULE'),
+  ('docprinter.oplog',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\oplog.py',
+   'PYMODULE'),
+  ('docprinter.paths',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\paths.py',
+   'PYMODULE'),
+  ('docprinter.report_r02',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\report_r02.py',
+   'PYMODULE'),
+  ('docprinter.workflow',
+   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\docprinter\\workflow.py',
+   'PYMODULE'),
+  ('email',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\__init__.py',
+   'PYMODULE'),
+  ('email._encoded_words',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\_encoded_words.py',
+   'PYMODULE'),
+  ('email._header_value_parser',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\_header_value_parser.py',
+   'PYMODULE'),
+  ('email._parseaddr',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\_parseaddr.py',
+   'PYMODULE'),
+  ('email._policybase',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\_policybase.py',
+   'PYMODULE'),
+  ('email.base64mime',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\base64mime.py',
+   'PYMODULE'),
+  ('email.charset',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\charset.py',
+   'PYMODULE'),
+  ('email.contentmanager',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\contentmanager.py',
+   'PYMODULE'),
+  ('email.encoders',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\encoders.py',
+   'PYMODULE'),
+  ('email.errors',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\errors.py',
+   'PYMODULE'),
+  ('email.feedparser',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\feedparser.py',
+   'PYMODULE'),
+  ('email.generator',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\generator.py',
+   'PYMODULE'),
+  ('email.header',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\header.py',
+   'PYMODULE'),
+  ('email.headerregistry',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\headerregistry.py',
+   'PYMODULE'),
+  ('email.iterators',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\iterators.py',
+   'PYMODULE'),
+  ('email.message',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\message.py',
+   'PYMODULE'),
+  ('email.parser',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\parser.py',
+   'PYMODULE'),
+  ('email.policy',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\policy.py',
+   'PYMODULE'),
+  ('email.quoprimime',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\quoprimime.py',
+   'PYMODULE'),
+  ('email.utils',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\email\\utils.py',
+   'PYMODULE'),
+  ('fnmatch',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\fnmatch.py',
+   'PYMODULE'),
+  ('fractions',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\fractions.py',
+   'PYMODULE'),
+  ('ftplib',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ftplib.py',
+   'PYMODULE'),
+  ('getopt',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\getopt.py',
+   'PYMODULE'),
+  ('gettext',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\gettext.py',
+   'PYMODULE'),
+  ('glob',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\glob.py',
+   'PYMODULE'),
+  ('gzip',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\gzip.py',
+   'PYMODULE'),
+  ('hashlib',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\hashlib.py',
+   'PYMODULE'),
+  ('http',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\http\\__init__.py',
+   'PYMODULE'),
+  ('http.client',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\http\\client.py',
+   'PYMODULE'),
+  ('http.cookiejar',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\http\\cookiejar.py',
+   'PYMODULE'),
+  ('importlib',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\__init__.py',
+   'PYMODULE'),
+  ('importlib._abc',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\_abc.py',
+   'PYMODULE'),
+  ('importlib._bootstrap',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\_bootstrap.py',
+   'PYMODULE'),
+  ('importlib._bootstrap_external',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\_bootstrap_external.py',
+   'PYMODULE'),
+  ('importlib.abc',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\abc.py',
+   'PYMODULE'),
+  ('importlib.machinery',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\machinery.py',
+   'PYMODULE'),
+  ('importlib.metadata',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\metadata\\__init__.py',
+   'PYMODULE'),
+  ('importlib.metadata._adapters',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\metadata\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.metadata._collections',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\metadata\\_collections.py',
+   'PYMODULE'),
+  ('importlib.metadata._functools',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\metadata\\_functools.py',
+   'PYMODULE'),
+  ('importlib.metadata._itertools',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\metadata\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.metadata._meta',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\metadata\\_meta.py',
+   'PYMODULE'),
+  ('importlib.metadata._text',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\metadata\\_text.py',
+   'PYMODULE'),
+  ('importlib.readers',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\readers.py',
+   'PYMODULE'),
+  ('importlib.resources',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\resources\\__init__.py',
+   'PYMODULE'),
+  ('importlib.resources._adapters',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\resources\\_adapters.py',
+   'PYMODULE'),
+  ('importlib.resources._common',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\resources\\_common.py',
+   'PYMODULE'),
+  ('importlib.resources._functional',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\resources\\_functional.py',
+   'PYMODULE'),
+  ('importlib.resources._itertools',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\resources\\_itertools.py',
+   'PYMODULE'),
+  ('importlib.resources.abc',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\resources\\abc.py',
+   'PYMODULE'),
+  ('importlib.resources.readers',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\resources\\readers.py',
+   'PYMODULE'),
+  ('importlib.util',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\importlib\\util.py',
+   'PYMODULE'),
+  ('inspect',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\inspect.py',
+   'PYMODULE'),
+  ('ipaddress',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ipaddress.py',
+   'PYMODULE'),
+  ('json',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\json\\__init__.py',
+   'PYMODULE'),
+  ('json.decoder',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\json\\decoder.py',
+   'PYMODULE'),
+  ('json.encoder',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\json\\encoder.py',
+   'PYMODULE'),
+  ('json.scanner',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\json\\scanner.py',
+   'PYMODULE'),
+  ('logging',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\logging\\__init__.py',
+   'PYMODULE'),
+  ('lzma',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\lzma.py',
+   'PYMODULE'),
+  ('mimetypes',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\mimetypes.py',
+   'PYMODULE'),
+  ('netrc',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\netrc.py',
+   'PYMODULE'),
+  ('numbers',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\numbers.py',
+   'PYMODULE'),
+  ('opcode',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\opcode.py',
+   'PYMODULE'),
+  ('pathlib',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pathlib\\__init__.py',
+   'PYMODULE'),
+  ('pathlib._os',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pathlib\\_os.py',
+   'PYMODULE'),
+  ('pickle',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pickle.py',
+   'PYMODULE'),
+  ('platform',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\platform.py',
+   'PYMODULE'),
+  ('pprint',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\pprint.py',
+   'PYMODULE'),
+  ('py_compile',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\py_compile.py',
+   'PYMODULE'),
+  ('queue',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\queue.py',
+   'PYMODULE'),
+  ('quopri',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\quopri.py',
+   'PYMODULE'),
+  ('random',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\random.py',
+   'PYMODULE'),
+  ('selectors',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\selectors.py',
+   'PYMODULE'),
+  ('shutil',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\shutil.py',
+   'PYMODULE'),
+  ('signal',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\signal.py',
+   'PYMODULE'),
+  ('socket',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\socket.py',
+   'PYMODULE'),
+  ('ssl',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\ssl.py',
+   'PYMODULE'),
+  ('statistics',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\statistics.py',
+   'PYMODULE'),
+  ('string',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\string\\__init__.py',
+   'PYMODULE'),
+  ('stringprep',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\stringprep.py',
+   'PYMODULE'),
+  ('subprocess',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\subprocess.py',
+   'PYMODULE'),
+  ('sysconfig',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\sysconfig\\__init__.py',
+   'PYMODULE'),
+  ('tarfile',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tarfile.py',
+   'PYMODULE'),
+  ('tempfile',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tempfile.py',
+   'PYMODULE'),
+  ('textwrap',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\textwrap.py',
+   'PYMODULE'),
+  ('threading',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\threading.py',
+   'PYMODULE'),
+  ('tkinter',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tkinter\\__init__.py',
+   'PYMODULE'),
+  ('tkinter.commondialog',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tkinter\\commondialog.py',
+   'PYMODULE'),
+  ('tkinter.constants',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tkinter\\constants.py',
+   'PYMODULE'),
+  ('tkinter.messagebox',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tkinter\\messagebox.py',
+   'PYMODULE'),
+  ('tkinter.ttk',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tkinter\\ttk.py',
+   'PYMODULE'),
+  ('token',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\token.py',
+   'PYMODULE'),
+  ('tokenize',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tokenize.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\tracemalloc.py',
+   'PYMODULE'),
+  ('typing',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\typing.py',
+   'PYMODULE'),
+  ('urllib',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\urllib\\__init__.py',
+   'PYMODULE'),
+  ('urllib.error',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\urllib\\error.py',
+   'PYMODULE'),
+  ('urllib.parse',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\urllib\\parse.py',
+   'PYMODULE'),
+  ('urllib.request',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\urllib\\request.py',
+   'PYMODULE'),
+  ('urllib.response',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\urllib\\response.py',
+   'PYMODULE'),
+  ('uuid',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\uuid.py',
+   'PYMODULE'),
+  ('xml',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\parsers\\__init__.py',
+   'PYMODULE'),
+  ('xml.parsers.expat',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\parsers\\expat.py',
+   'PYMODULE'),
+  ('xml.sax',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\sax\\__init__.py',
+   'PYMODULE'),
+  ('xml.sax._exceptions',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\sax\\_exceptions.py',
+   'PYMODULE'),
+  ('xml.sax.expatreader',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\sax\\expatreader.py',
+   'PYMODULE'),
+  ('xml.sax.handler',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\sax\\handler.py',
+   'PYMODULE'),
+  ('xml.sax.saxutils',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\sax\\saxutils.py',
+   'PYMODULE'),
+  ('xml.sax.xmlreader',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\xml\\sax\\xmlreader.py',
+   'PYMODULE'),
+  ('zipfile',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\zipfile\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\zipfile\\_path\\__init__.py',
+   'PYMODULE'),
+  ('zipfile._path.glob',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\zipfile\\_path\\glob.py',
+   'PYMODULE')])

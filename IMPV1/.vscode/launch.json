@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    { "name": "GUI (impresoras simuladas)", "type": "debugpy", "request": "launch", "module": "docprinter", "args": ["gui", "--fake"], "justMyCode": false },
+    { "name": "CLI: listar (simulado)", "type": "debugpy", "request": "launch", "module": "docprinter", "args": ["cli", "list", "--fake"] },
+    { "name": "CLI: reinstalar simulado", "type": "debugpy", "request": "launch", "module": "docprinter", "args": ["cli", "reinstall", "HP LaserJet Contabilidad", "--fake"] },
+    { "name": "CLI: listar (REAL, Windows)", "type": "debugpy", "request": "launch", "module": "docprinter", "args": ["cli", "list"] },
+    { "name": "CLI: diagnosticar (REAL)", "type": "debugpy", "request": "launch", "module": "docprinter", "args": ["cli", "diagnose", "${input:printer}"] },
+    { "name": "Helper una vez (REAL, como admin)", "type": "debugpy", "request": "launch", "module": "docprinter", "args": ["helper", "--once"] },
+    { "name": "Pruebas (pytest)", "type": "debugpy", "request": "launch", "module": "pytest", "args": ["-v"] }
+  ],
+  "inputs": [ { "id": "printer", "type": "promptString", "description": "Nombre exacto de la impresora" } ]
+}
