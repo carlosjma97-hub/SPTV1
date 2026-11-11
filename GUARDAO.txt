@@ -1,0 +1,99 @@
+====================================================================
+
+  GUÍA RÁPIDA: GUARDAR Y SUBIR CAMBIOS A GITHUB (USO DIARIO)
+
+====================================================================
+
+
+
+Paso 1: Abrir Git Bash e ir a la carpeta de tu proyecto
+
+--------------------------------------------------------------------
+
+Abre tu terminal de Git Bash y navega a la carpeta principal:
+
+
+
+    cd /d/PROYECTOS_CARLOS_SOPORTE
+
+
+
+Luego, entra a la carpeta del proyecto específico que modificaste 
+
+(reemplaza "CCPV1" por el nombre de la carpeta correspondiente):
+
+
+
+    cd CCPV1
+
+
+
+
+
+Paso 2: La Secuencia de los 3 Comandos Mágicos
+
+--------------------------------------------------------------------
+
+Una vez dentro de la carpeta del proyecto que editaste, ejecuta 
+
+los siguientes 3 comandos en orden:
+
+
+
+    1. git add .
+
+       (Prepara todos los archivos modificados o nuevos)
+
+
+
+    2. git commit -m "Descripción breve de los cambios realizados"
+
+       (Guarda una nota de los avances localmente)
+
+
+
+    3. git push
+
+       (Sube las modificaciones a tu repositorio en GitHub)
+
+
+
+
+
+Paso 3: Pasar a otro proyecto (Si modificaste más de uno)
+
+--------------------------------------------------------------------
+
+Para salir de la carpeta actual y entrar a otra:
+
+
+
+    cd ..
+
+    cd NOMBRE_DEL_OTRO_PROYECTO
+
+
+
+Y repites nuevamente la secuencia: git add . -> git commit -> git push
+
+
+
+
+
+====================================================================
+
+COMANDOS ÚTILES DE CONSULTA
+
+====================================================================
+
+* Ver qué archivos has modificado:
+
+    git status
+
+
+
+* Ver el historial de cambios guardados:
+
+    git log --oneline
+
+====================================================================

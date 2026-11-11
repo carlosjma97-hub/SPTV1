@@ -1,6 +1,5 @@
 ([('DocPrinterTI.exe',
-   'C:\\Users\\Carlos '
-   'Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\DocPrinterTI.exe',
+   'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\DocPrinterTI.exe',
    'EXECUTABLE'),
   ('VCRUNTIME140.dll',
    'C:\\Users\\Carlos '
@@ -21,6 +20,10 @@
   ('_decimal.pyd',
    'C:\\Users\\Carlos '
    'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\Carlos '
+   'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_elementtree.pyd',
    'EXTENSION'),
   ('_hashlib.pyd',
    'C:\\Users\\Carlos '
@@ -3743,8 +3746,7 @@
    'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\DLLs\\_zstd.pyd',
    'EXTENSION'),
   ('base_library.zip',
-   'C:\\Users\\Carlos '
-   'Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\base_library.zip',
+   'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\base_library.zip',
    'DATA'),
   ('libcrypto-3.dll',
    'C:\\Users\\Carlos '

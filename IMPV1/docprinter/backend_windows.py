@@ -55,6 +55,19 @@ def run_ps(script: str, params: Optional[dict] = None, timeout: int = 120) -> st
     out = cp.stdout.decode("utf-8", "replace")
     if cp.returncode != 0:
         err = cp.stderr.decode("utf-8", "replace").strip() or out.strip() or f"codigo {cp.returncode}"
+        # Parser robusto para errores CLIXML de PowerShell
+        if "#< CLIXML" in err:
+            try:
+                import xml.etree.ElementTree as ET
+                import html
+                xml_index = err.find("#< CLIXML")
+                xml_text = err[xml_index + len("#< CLIXML"):].strip()
+                root = ET.fromstring(xml_text)
+                messages = [html.unescape(node.text or "").replace("_x000D__x000A_", " ").strip()
+                            for node in root.iter() if node.tag.endswith("S") and node.attrib.get("S") == "Error"]
+                err = next((message for message in messages if message), err)
+            except Exception:
+                err = err.replace("#< CLIXML", "").strip()
         raise BackendError(err.splitlines()[0] if err else err)
     return out
 
@@ -110,15 +123,18 @@ $j=@(Get-PrintJob -PrinterName $p.name -ErrorAction SilentlyContinue | ForEach-O
 ConvertTo-Json -InputObject @($j) -Compress
 """
 _ADD_PORT = r"""
-if ($p.protocol -eq 'LPR') {
-  $a=@{Name=$p.port_name; LprHostAddress=$p.host; LprQueueName=$p.lpr_queue}
-  if ($p.lpr_byte_counting) { $a.LprByteCounting=$true }
-} else {
-  $pn = if ([int]$p.port_number -gt 0) { [int]$p.port_number } else { 9100 }
-  $a=@{Name=$p.port_name; PrinterHostAddress=$p.host; PortNumber=$pn}
-  if ($p.snmp) { $a.SNMP=[int]$p.snmp_index; $a.SNMPCommunity=[string]$p.snmp_community }
+$portName = $p.port_name
+if (-not (Get-PrinterPort -Name $portName -ErrorAction SilentlyContinue)) {
+  if ($p.protocol -eq 'LPR') {
+    $a=@{Name=$portName; LprHostAddress=$p.host; LprQueueName=$p.lpr_queue}
+    if ($p.lpr_byte_counting) { $a.LprByteCounting=$true }
+  } else {
+    $pn = if ([int]$p.port_number -gt 0) { [int]$p.port_number } else { 9100 }
+    $a=@{Name=$portName; PrinterHostAddress=$p.host; PortNumber=$pn}
+    if ($p.snmp) { $a.SNMP=[int]$p.snmp_index; $a.SNMPCommunity=[string]$p.snmp_community }
+  }
+  Add-PrinterPort @a
 }
-Add-PrinterPort @a
 """
 _ADD_PRINTER = r"""
 $a=@{Name=$p.name; DriverName=$p.driver; PortName=$p.port_name}

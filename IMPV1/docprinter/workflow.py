@@ -158,7 +158,7 @@ def reinstall(b: Backend, name: str, *, simulate: bool = False,
             _save_backup(backup_dir, snap, ticket)
         log(f"Impresora: {snap.name} | Controlador: {snap.driver} | Puerto: {snap.port_name} | Tipo: {snap.kind}")
 
-        # FASE 2 - validacion (antes de tocar nada)
+             # FASE 2 - validacion (antes de tocar nada)
         step(2, "Verificando conexion de red y requisitos")
         if snap.kind == "Compartida":
             raise WorkflowError("Es una impresora compartida de un servidor: no se reinstala localmente.")
@@ -197,16 +197,31 @@ def reinstall(b: Backend, name: str, *, simulate: bool = False,
         b.remove_printer(name)
         removed = True
 
-        # FASE 5 - puerto
+              # FASE 5 - puerto
         step(5, "Reconstruyendo puerto")
         if snap.kind == "TCPIP":
-            if b.printers_on_port(snap.port_name):
-                log("El puerto lo usan otras impresoras: se conserva sin cambios.")
+            # Estrategia: intentar retirar el puerto solo si esta impresora es la unica
+            # que lo usa. En Windows, la fuente autoritativa es el propio
+            # Remove-PrinterPort: si falla porque otra cola lo usa, se conserva y se
+            # continua. Si falla add_port, eso SI es un error de la fase 5 y se propaga.
+            others = [n for n in b.printers_on_port(snap.port_name) if n != name]
+            if others:
+                log(f"Puerto TCP/IP {snap.port_name} compartido con {len(others)} impresora(s); se conserva.")
+            elif b.port_exists(snap.port_name):
+                try:
+                    b.remove_port(snap.port_name)
+                    log(f"Puerto TCP/IP {snap.port_name} retirado para reconstruirlo.")
+                except BackendError as e:
+                    # El puerto esta en uso por otra cola (Windows no lo libera).
+                    # Se conserva: la Fase 6 (add_printer) lo reutilizara sin problema.
+                    log(f"Puerto TCP/IP {snap.port_name} en uso ({e}); se conserva.")
+                    others = [snap.port_name]   # marca para no recrearlo
+                if not others:
+                    b.add_port(snap)
+                    log(f"Puerto TCP/IP {snap.port_name} creado ({snap.protocol} {snap.host}:{snap.port_number}).")
             else:
-                b.remove_port(snap.port_name)
-                sleep(2)
                 b.add_port(snap)
-                log(f"Puerto {snap.port_name} recreado ({snap.protocol} {snap.host}:{snap.port_number}).")
+                log(f"Puerto TCP/IP {snap.port_name} creado ({snap.protocol} {snap.host}:{snap.port_number}).")
         else:
             log("Puerto USB: se reutiliza el existente.")
 
@@ -264,7 +279,7 @@ def reinstall(b: Backend, name: str, *, simulate: bool = False,
         finish("warning" if warn else "done", "OK", "; ".join(warn), snap.host, snap.driver)
         return R
 
-    except (WorkflowError, BackendError, Exception) as exc:  # noqa: BLE001 - nunca debe escapar
+    except Exception as exc:  # noqa: BLE001 - nunca debe escapar
         failed = R.phase
         log(f"ERROR en fase {failed}: {exc}")
         final = "error"

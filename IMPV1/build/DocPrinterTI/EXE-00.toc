@@ -1,9 +1,8 @@
-('C:\\Users\\Carlos '
- 'Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\DocPrinterTI.exe',
+('D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\DocPrinterTI.exe',
  False,
  False,
  True,
- ['C:\\Users\\Carlos Mendoza\\Downloads\\dp\\build/icon.ico'],
+ ['D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build/icon.ico'],
  None,
  False,
  False,
@@ -30,31 +29,25 @@
  None,
  None,
  None,
- 'C:\\Users\\Carlos '
- 'Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\DocPrinterTI.pkg',
+ 'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\DocPrinterTI.pkg',
  [('pyi-contents-directory _internal', '', 'OPTION'),
   ('PYZ-00.pyz',
-   'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\PYZ-00.pyz',
+   'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
-   'C:\\Users\\Carlos '
-   'Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\localpycs\\struct.pyc',
+   'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
-   'C:\\Users\\Carlos '
-   'Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\localpycs\\pyimod01_archive.pyc',
+   'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
-   'C:\\Users\\Carlos '
-   'Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\localpycs\\pyimod02_importers.pyc',
+   'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
-   'C:\\Users\\Carlos '
-   'Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\localpycs\\pyimod03_ctypes.pyc',
+   'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
-   'C:\\Users\\Carlos '
-   'Mendoza\\Downloads\\dp\\build\\DocPrinterTI\\localpycs\\pyimod04_pywin32.pyc',
+   'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\build\\DocPrinterTI\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'C:\\Users\\Carlos '
@@ -68,11 +61,11 @@
    'C:\\Users\\Carlos '
    'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth__tkinter.py',
    'PYSOURCE'),
-  ('run', 'C:\\Users\\Carlos Mendoza\\Downloads\\dp\\run.py', 'PYSOURCE')],
+  ('run', 'D:\\PROYECTOS_CARLOS_SOPORTE\\IMPV1\\run.py', 'PYSOURCE')],
  [],
  False,
  False,
- 1794320683,
+ 1794422152,
  [('runw.exe',
    'C:\\Users\\Carlos '
    'Mendoza\\AppData\\Local\\Python\\pythoncore-3.14-64\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
